@@ -1,0 +1,7 @@
+<%= form_tag '/login' do %>
+  <%= label_tag 'screenname' %>
+  <%= text_field_tag 'screenname', nil ,autofocus: true %>
+  <%= label_tag 'password' %>
+  <%= password_field_tag 'password' %>
+  <%= submit_tag 'Login to Tunr' %>
+ <% end %>
