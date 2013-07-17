@@ -5,7 +5,6 @@ class TweetsController < ApplicationController
 
 	def show
 		@tweet = Tweet.find(params[:id])
-		my_password = ENV['TWITTER_USERNAME']
 	end
 
 	def new
